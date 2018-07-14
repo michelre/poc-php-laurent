@@ -1,0 +1,12 @@
+{
+    "name": "remimichel/poc-php-laurent",
+    "authors": [
+        {
+            "name": "remimichel",
+            "email": "remi.michel38@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^2.5"
+    }
+}

@@ -1,0 +1,12 @@
+{% extends "base.html.twig" %}
+
+{% block title %}Accueil{% endblock %}
+
+{% block content %}
+  <h1>Liste des services</h1>
+  <ul class="list-unstyled pl-3">
+    {% for service in services %}
+      <li>{{ service.name }} {{ service.description }} {{ service.tarif }}€</li>
+    {% endfor %}
+  </ul>
+{% endblock %}
